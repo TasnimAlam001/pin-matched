@@ -8,6 +8,9 @@ document.getElementById('generate-pin').addEventListener('click',function(){
     const typedPin = document.getElementById('typed-numbers');
     typedPin.value = '';
 
+    const tryleft = document.getElementById('try-left');
+    tryleft.innerText = '3';
+
 
 
 
